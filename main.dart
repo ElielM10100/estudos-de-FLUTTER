@@ -25,4 +25,14 @@ class TelaInicial extends StatelessWidget {
 const TelaInicial({ Key? key }) : super(key: key);
 
 @override
-Widget build()
+Widget build(BuildContext context){
+  return Scaffold(
+    appBar: AppBar(title: const Text("Tela inicial"),),
+    body: Container(
+      width: double.infinity,
+      color: Colors.white,
+      height: 400,
+    ),
+);
+}
+}
