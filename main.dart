@@ -21,8 +21,9 @@ Widget build(BuildContext context) {
 }
 }
 
-class TelaInicial extends StatelessWidget {
-const TelaInicial({ Key? key }) : super(key: key);
+class TelaInicial extends StatelessWidget{
+const TelaInicial({Key? key, required this.title}):super(key: key);
+final String title;
 
 @override
 Widget build(BuildContext context){
